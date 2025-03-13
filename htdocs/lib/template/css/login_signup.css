@@ -1,0 +1,72 @@
+.table{
+    padding:30px;
+    position: relative;
+    height: auto;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid blur;
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transition:2s;
+  }
+  .login{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("/login.jpg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .te{
+    padding: 12px;
+    font-size: 1.2rem;
+
+    color: white;
+    margin-bottom:10px ;
+    width: 300px;
+    height: 43px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  }
+  .sub{
+    color: white;
+    padding: 8px;
+    font-size: 1.3rem;
+
+    background-color: #ff002f;
+    margin-bottom:10px ;
+    margin-top:16px;
+    width: 300px;
+    height: 43px;
+    border: 2px solid blur;
+    border-radius: 10px;
+  }
+  .sub1{
+    color: black;
+    padding: 8px;
+    padding-left: 118px;
+    font-size: 1.3rem;
+
+    background-color: white;
+    margin-bottom:10px ;
+    margin-top:56px;
+    width: 60px;
+    height: 33px;
+    border: 2px solid blur;
+    border-radius: 10px;
+  }
+  .si{
+    padding-left: 86px;
+    padding-bottom: 26px;
+  }
+  .lasth4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 137px;
+  }

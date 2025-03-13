@@ -1,0 +1,7 @@
+{
+    "domain":"/watching.php?k=",
+    "servername" : "mysql.selfmade.ninja:3306",
+    "susername" : "movieclub",
+    "password" : "vishnu4610k",
+    "dbname" : "movieclub_movieclub_db"
+}
