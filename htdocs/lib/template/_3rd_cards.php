@@ -15,7 +15,7 @@ $domain=get_conf("domain");
 
                 <div class="movies-grid">
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Red Notice' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/C5mrM9gh/red-notice.jpg" alt="movie" class="card-img">
 
@@ -48,7 +48,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Spider-Man: Homecoming' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/brB48dkY/spider-men.jpg" alt="movie" class="card-img">
 
@@ -81,7 +81,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>The Matrix Ressurections' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/Kv3HBGtL/matrix.jpg" alt="movie" class="card-img">
 
@@ -114,7 +114,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Eternals' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/c4YNZM9V/eternals.jpg" alt="movie" class="card-img">
 
@@ -147,7 +147,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Dune: Part One' target="_blank" class="main-link">
                             <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/Y9jJP1LD/dune.jpg" alt="movie" class="card-img">
 
@@ -179,7 +179,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>1917' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/q7NwVQQK/1917.jpg" alt="movie" class="card-img">
 
@@ -212,7 +212,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Shang-Chi and the Legend of the Ten Rings' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/d1vhmV70/shang-chi.jpg" alt="movie" class="card-img">
 
@@ -245,7 +245,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Casino Royale' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/L6r638wM/casino-royale.jpg" alt="movie" class="card-img">
 
@@ -278,7 +278,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>The Dark Knight' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/Gt6rKXMj/dark-knight.jpg" alt="movie" class="card-img">
 
@@ -311,7 +311,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Black Panther' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/hjjBqk6r/panther.jpg" alt="movie" class="card-img">
 
@@ -344,7 +344,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Venom' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/QtyrN6rr/venom.jpg" alt="movie" class="card-img">
 
@@ -377,7 +377,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link"> 
+                        <a href='<?php echo $domain;?>Lord Of The Rings: Return Of The King' target="_blank" class="main-link"> 
                             <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/3JgJ9TT4/LOTR.jpg" alt="movie" class="card-img">
 
@@ -409,7 +409,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Saving Private Ryan' target="_blank" class="main-link">
                             <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/VkgsQW5z/saving-private-ryan.jpg" alt="movie" class="card-img">
 
@@ -441,7 +441,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Interstellar' target="_blank" class="main-link">
                             <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/cHgd3qhJ/interstaller.jpg" alt="movie" class="card-img">
 
@@ -473,7 +473,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Gladiator' target="_blank" class="main-link">
                             <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/y8LKr6rd/gladiator.jpg" alt="movie" class="card-img">
 
@@ -505,7 +505,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Avengers: Endgame' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/6QSXtjKx/endgame.jpg" alt="movie" class="card-img">
 
@@ -538,7 +538,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Wonder Woman 1984' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/1X0h0yqy/ww84.jpg" alt="movie" class="card-img">
 
@@ -571,7 +571,7 @@ $domain=get_conf("domain");
                     </div>
 
                     <div class="movie-card">
-                        <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+                        <a href='<?php echo $domain;?>Captain Marvel' target="_blank" class="main-link">
                         <div class="card-head">
                             <img class="img" src="https://i.postimg.cc/v85swtSC/captain-marvel.jpg" alt="movie" class="card-img">
 

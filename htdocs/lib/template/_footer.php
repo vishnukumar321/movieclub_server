@@ -20,7 +20,7 @@
                         <li class="link-item"><a href="#">About us</a></li>
                         <li class="link-item"><a href="#">My profile</a></li>
                         <li class="link-item"><a href="#">Pricing plans</a></li>
-                        <li class="link-item"><a href="#">Contacts</a></li>
+                        <li class="link-item"><a href="#">plans</a></li>
                     </ul>
     
                     <ul>
@@ -33,7 +33,7 @@
                     </ul>
     
                     <ul>
-    
+                    <h4 class="link-heading">Shows</h4>
                         <li class="link-item"><a href="#">TV Shows</a></li>
                         <li class="link-item"><a href="#">Movies</a></li>
                         <li class="link-item"><a href="#">Kids</a></li>
@@ -41,12 +41,12 @@
                     </ul>
     
                     <ul>
-                        <h4 class="link-heading">Help</h4>
+                        <h4 class="link-heading">Builded by</h4>
     
-                        <li class="link-item"><a href="#">Account & Billing</a></li>
-                        <li class="link-item"><a href="#">Plans & Pricing</a></li>
-                        <li class="link-item"><a href="#">Supported Devices</a></li>
-                        <li class="link-item"><a href="#">Accessibility</a></li>
+                        <li class="link-item"><a href="#"> Vishnukumar E</a></li>
+                        <li class="link-item"><a href="#">vishnu05357874@gmail.com</a></li>
+                        <li class="link-item"><a href="#"></a></li>
+                        <li class="link-item"><a href="#"></a></li>
                     </ul>
                 </div>
             </div>
