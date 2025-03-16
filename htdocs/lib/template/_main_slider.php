@@ -1,5 +1,9 @@
 <?php
 include_once "lib/load.php";
+if(isset($_GET['logout'])){
+  session_destroy();
+  header('location: /index.php');
+}
 $domain=get_conf("domain");
 
 
@@ -72,4 +76,5 @@ $domain=get_conf("domain");
   </nav>
   </div>
 </div>
+
 

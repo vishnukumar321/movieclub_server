@@ -1,4 +1,4 @@
-.table{
+/* .table{
     padding:30px;
     position: relative;
     height: auto;
@@ -38,7 +38,7 @@
     padding: 8px;
     font-size: 1.4rem;
 
-    /* background-color: #ff002f; */
+    background-color: #ff002f;
     background: linear-gradient(to right,rgb(19,142,250),rgb(208,12,113));
 
     margin-bottom:10px ;
@@ -69,13 +69,11 @@
     border-radius: 10px;
   }
   .si{
-    /* padding-left: 86px;
-    padding-bottom: 26px; */
-    display: flex;
-    justify-content: center;
+    padding-left: 86px;
+    padding-bottom: 26px;
   }
   .lasth4{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 137px;
-  }
+  } */
