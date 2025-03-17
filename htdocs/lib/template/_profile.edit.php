@@ -34,10 +34,10 @@ if($result){
     </tr>
     
       <tr>
-      <td><input name="name" class="te" type="text" placeholder="Username" value="<?php echo $edit->getname(); ?>" required autocomplete="off"></td>
+      <td><input name="name" class="te" type="text" maxlength="24" placeholder="Username" value="<?php echo $edit->getname(); ?>" required autocomplete="off"></td>
     </tr>
     <tr>
-      <td><input name="email" class="te" type="email" placeholder="Email" value="<?php echo $edit->getemail(); ?>" required autocomplete="off"></td>
+      <td><input name="email" class="te" type="email" maxlength="24" placeholder="Email" value="<?php echo $edit->getemail(); ?>" required autocomplete="off"></td>
     </tr>
       <tr>
       <td><input name="phone" maxlength="10" minlength="10" class="te" value="<?php echo $edit->getphone(); ?>" type="tel" placeholder="Phone No" required autocomplete="off"></td>
