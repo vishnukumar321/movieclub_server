@@ -16,7 +16,7 @@ if(isset($_POST['name']) and isset($_POST['email']) and isset($_POST['phone']) a
 if($result){
   if($signup){
     // header('location: /index.php');
-    $_SESSION['login']=true;
+    $_SESSION['token']=true;
     header('location: /index.php');
   }else{
     ?>
@@ -35,7 +35,7 @@ if($result){
       <td><input name="email" class="te" type="email" placeholder="Email" required autocomplete="off"></td>
     </tr>
       <tr>
-      <td><input name="phone" class="te" type="tel" placeholder="Phone No" required autocomplete="off"></td>
+      <td><input name="phone" class="te" maxlength="10" minlength="10" type="tel" placeholder="Phone No" required autocomplete="off"></td>
     </tr>
     <tr>
       <td><input name="password" class="te" type="Password" placeholder="Password" required required maxlength="12" minlength="6" autocomplete="new-password" ></td>
@@ -73,7 +73,7 @@ if($result){
       <td><input name="email" class="te" type="email" placeholder="Email" required autocomplete="off"></td>
     </tr>
       <tr>
-      <td><input name="phone" class="te" type="tel" placeholder="Phone No" required autocomplete="off"></td>
+      <td><input name="phone" class="te" type="tel" maxlength="10" minlength="10" placeholder="Phone No" required autocomplete="off"></td>
     </tr>
     <tr>
       <td><input name="password" class="te" type="Password" placeholder="Password" required maxlength="12" minlength="6" autocomplete="new-password"></td>

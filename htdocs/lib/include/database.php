@@ -12,7 +12,6 @@ class database{
             if($conn->connect_error){
                 die("connetion error".$conn->connect_error);
             }else{
-                
                 return database::$conn=$conn;
             }
         }else{

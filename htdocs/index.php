@@ -6,10 +6,4 @@ get_file("main_slider");
 get_file("2nd_slider");
 get_file("3rd_cards");
 get_file("footer");
-if(isset($_SESSION['login'])){
-  ?><script>
-    window.alert("Signup success, please login");
-  </script>
-  <?php
-}
 ?>
