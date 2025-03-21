@@ -21,6 +21,8 @@ if(isset($_SESSION['token'])){
     
     </div>
         <?php
+        get_file("2nd_slider");
+        get_file("3rd_cards");
         }else{
             header("Location: /index.php");
         }
