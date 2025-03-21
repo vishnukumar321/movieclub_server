@@ -1,3 +1,8 @@
+<?php
+if(isset($_SESSION['token'])){
+  header('location: /index.php');
+}else{
+?>
 <link rel='stylesheet' href='https://unpkg.com/griddd@1.0.2/dist/griddd.min.css'>
 <link rel="stylesheet" href="/lib/template/css/success.css">
 <div class="success">
@@ -11,3 +16,6 @@
   </div>
   
 </div>
+<?php
+}
+?>

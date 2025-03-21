@@ -1,5 +1,9 @@
 <?php
 include_once "lib/load.php";
+if(isset($_SESSION['token'])){
+  header('location: /index.php');
+}
+$error = false;
 $result=false;
 $signup=false;
 if(isset($_POST['name']) and isset($_POST['email']) and isset($_POST['phone']) and isset($_POST['password'])){
@@ -19,7 +23,10 @@ if($result){
     $_SESSION['token']=true;
     header('location: /index.php');
   }else{
-    ?>
+    $error = true;
+  }
+}
+  ?>
     <div class="login">
 <center>
 <form action="signup.php" method="post">
@@ -29,23 +36,28 @@ if($result){
     </tr>
     
       <tr>
-      <td><input name="name" class="te" type="text" placeholder="Username" required autocomplete="off"></td>
+      <td><input name="name" class="te" type="text" maxlength="23" placeholder="Username" required autocomplete="off"></td>
     </tr>
     <tr>
-      <td><input name="email" class="te" type="email" placeholder="Email" required autocomplete="off"></td>
+      <td><input name="email" class="te" maxlength="24" type="email" placeholder="Email" required autocomplete="off"></td>
     </tr>
       <tr>
       <td><input name="phone" class="te" maxlength="10" minlength="10" type="tel" placeholder="Phone No" required autocomplete="off"></td>
     </tr>
     <tr>
-      <td><input name="password" class="te" type="Password" placeholder="Password" required required maxlength="12" minlength="6" autocomplete="new-password" ></td>
+      <td><input name="password" class="te" type="Password" placeholder="Password" required required minlength="6" autocomplete="new-password" ></td>
     </tr>
-    <tr>
+    <?php
+    if($error){
+      ?>
+      <tr>
       <center>
       <td><p >This Username is unavailable</p></td>
       </center>
     </tr>
-    
+      <?php
+    }
+    ?>
     <tr>
       <td><input class="sub" type="submit"></td>
     </tr>
@@ -53,38 +65,4 @@ if($result){
 </form>
 </center>
 </div>
-    <?php
-  }
-
-}else{
-  ?>
-  <div class="login">
-<center>
-<form action="signup.php" method="post" autocomplete="on">
-  <table class="table">
-    <tr>
-      <td class="si"><h1>Sigh Up</h1></td>
-    </tr>
-    
-      <tr>
-      <td><input name="name" class="te" type="text" placeholder="Username" required  autocomplete="off"></td>
-    </tr>
-    <tr>
-      <td><input name="email" class="te" type="email" placeholder="Email" required autocomplete="off"></td>
-    </tr>
-      <tr>
-      <td><input name="phone" class="te" type="tel" maxlength="10" minlength="10" placeholder="Phone No" required autocomplete="off"></td>
-    </tr>
-    <tr>
-      <td><input name="password" class="te" type="Password" placeholder="Password" required maxlength="12" minlength="6" autocomplete="new-password"></td>
-    </tr>
-    <tr>
-      <td><input class="sub" type="submit"></td>
-    </tr>
-  </table>
-</form>
-</center>
-</div>
-  <?php
-}
-?>
+  

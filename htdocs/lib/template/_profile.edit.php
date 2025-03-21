@@ -1,6 +1,7 @@
 <?php
 include_once "lib/load.php";
-$result=false;
+if(isset($_SESSION['token'])){
+  $result=false;
 $profile=false;
 $edit= new user($_SESSION['username']);
 if(isset($_POST['name']) and isset($_POST['email']) and isset($_POST['phone']) and isset($_POST['gender']) ){
@@ -34,7 +35,7 @@ if($result){
     </tr>
     
       <tr>
-      <td><input name="name" class="te" type="text" maxlength="24" placeholder="Username" value="<?php echo $edit->getname(); ?>" required autocomplete="off"></td>
+      <td><input name="name" class="te" type="text" maxlength="23" placeholder="Username" value="<?php echo $edit->getname(); ?>" required autocomplete="off"></td>
     </tr>
     <tr>
       <td><input name="email" class="te" type="email" maxlength="24" placeholder="Email" value="<?php echo $edit->getemail(); ?>" required autocomplete="off"></td>
@@ -56,6 +57,10 @@ if($result){
 </center>
 </div>
 <?php
+}
+
+}else{
+  header('location: /index.php');
 }
 
     
