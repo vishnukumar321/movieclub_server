@@ -2,6 +2,7 @@
 include_once "lib/include/database.php";
 include_once "lib/include/movie.class.php";
 include_once "lib/include/user.class.php";
+include_once "lib/include/session.class.php";
 session_start();
 function get_file($name){
     include $_SERVER['DOCUMENT_ROOT']."/lib/template/_$name.php";
