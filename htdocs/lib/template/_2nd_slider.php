@@ -133,7 +133,7 @@ $domain=get_conf("domain");
     
   </div>
   <div class="card">
-    <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+    <a href='<?php echo $domain;?>Lootera' target="_blank" class="main-link">
       <h3 class="title">Lootera</h3>
 
       <div class="image">

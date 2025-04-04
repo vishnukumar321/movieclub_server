@@ -71,8 +71,8 @@ $domain=get_conf("domain");
     </li>
   </ul>
   <nav class='nav'>
-    <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
-    <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+    <button class='btn prev' name="arrow-back-outline">←</button>
+    <button class='btn next' name="arrow-forward-outline">→</button>
   </nav>
   </div>
 </div>
