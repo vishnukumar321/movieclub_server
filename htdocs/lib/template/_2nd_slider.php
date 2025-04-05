@@ -9,7 +9,7 @@ $domain=get_conf("domain");
  </div>
 <div class="card-slider" id="card-slider">
 <div class="card">
-    <a href='<?php echo $domain;?>Marco' target="_blank" class="main-link">
+    <a href='<?php echo $domain;?>Marco'>
       <h3 class="title">Marco</h3>
 
       <div class="image">
@@ -22,7 +22,7 @@ $domain=get_conf("domain");
 
    
   </div>
-  <a href='<?php echo $domain;?>Greenland' target="_blank" class="main-link">
+  <a href='<?php echo $domain;?>Greenland'>
   <div class="card">
     
       <h3 class="title">Greenland</h3>
@@ -40,7 +40,7 @@ $domain=get_conf("domain");
   </a>
 
   <div class="card">
-    <a href='<?php echo $domain;?>Tabaah' target="_blank" class="main-link">
+    <a href='<?php echo $domain;?>Tabaah'>
       <h2 class="title">Tabaah</h2>
 
       <div class="image">
@@ -54,7 +54,7 @@ $domain=get_conf("domain");
     
   </div>
 <div class="card">
-    <a href='<?php echo $domain;?>Dawshom Awbotaar' target="_blank" class="main-link">
+    <a href='<?php echo $domain;?>Dawshom Awbotaar'>
       <h3 class="title">Dawshom Awbotaar</h3>
 
       <div class="image">
@@ -67,7 +67,7 @@ $domain=get_conf("domain");
 </a>
   </div>
   <div class="card">
-    <a href='<?php echo $domain;?>Khoj' target="_blank" class="main-link">
+    <a href='<?php echo $domain;?>Khoj'>
       <h3 class="title">Khoj</h3>
 
       <div class="image">
@@ -81,7 +81,7 @@ $domain=get_conf("domain");
    
   </div>
   <div class="card">
-    <a href='<?php echo $domain;?>Pariah' target="_blank" class="main-link">
+    <a href='<?php echo $domain;?>Pariah'>
       <h3 class="title">Pariah</h3>
 
       <div class="image">
@@ -100,7 +100,7 @@ $domain=get_conf("domain");
   
   <div class="card">
     <!-- Notice that both the image and the product title are in the same link. This can massively reduce the number of redundant tabstops on a page with lots of products, creating a better UX for keyboard-only and screen reader users. -->
-    <a href='<?php echo $domain;?>Ek Hazaaron Mein… Meri Behna Hai' target="_blank" class="main-link">
+    <a href='<?php echo $domain;?>Ek Hazaaron Mein… Meri Behna Hai'>
       <h3 class="title">Ek Hazaaron Mein… Meri Behna Hai</h3>
 
       <!-- This image has a descriptive alt attribute, so it helps to place it after the heading in the DOM. Flexbox is used to place it above the heading visually (see the CSS tab to see how). -->
@@ -118,7 +118,7 @@ $domain=get_conf("domain");
   </div>
   
   <div class="card">
-    <a href='<?php echo $domain;?>Vashikaran' target="_blank" class="main-link">
+    <a href='<?php echo $domain;?>Vashikaran'>
       <h3 class="title">Vashikaran
       </h3>
 
@@ -133,7 +133,7 @@ $domain=get_conf("domain");
     
   </div>
   <div class="card">
-    <a href='<?php echo $domain;?>Lootera' target="_blank" class="main-link">
+    <a href='<?php echo $domain;?>Lootera'>
       <h3 class="title">Lootera</h3>
 
       <div class="image">
